@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/socket.io/(.*)", "destination": "/index.js" },
+    { "source": "/(.*)", "destination": "/index.js" }
+  ],
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/public/$1" }
+  ]
+}
